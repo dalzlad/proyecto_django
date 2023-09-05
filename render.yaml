@@ -1,18 +1,18 @@
 databases:
   - name: testsena
-    databaseName: testsena
+    databaseName: 
     user: root
 
 services:
   - type: web
-    name: mysite
+    name: testsena
     runtime: python
-    buildCommand: "./build.sh"
+    buildCommand: "build.sh"
     startCommand: "gunicorn mysite.wsgi:application"
     envVars:
       - key: postgres://root:Bc774Rr9KIhz4dhmk5dP5z8oDVnz7cDD@dpg-cjrbq2ojbais738hsvug-a/testsena
         fromDatabase:
-          name: mysite
+          name: testsena
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
