@@ -64,10 +64,10 @@ DATABASES = {
         'USER': 'root',
         'PASSWORD': 'Bc774Rr9KIhz4dhmk5dP5z8oDVnz7cDD',
         'HOST': 'dpg-cjrbq2ojbais738hsvug-a',
-        'PORT': '5432',
-        'OPTIONS': {
-            'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
-         }   
+        'PORT': '5432'#,
+        #'OPTIONS': {
+         #   'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
+        # }   
     }
 }	
 
