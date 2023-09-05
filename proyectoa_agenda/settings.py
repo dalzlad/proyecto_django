@@ -55,7 +55,7 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'proyectoa_agenda.wsgi.application'
-
+postgres://root:Bc774Rr9KIhz4dhmk5dP5z8oDVnz7cDD@dpg-cjrbq2ojbais738hsvug-a/testsena
 # Database
 DATABASES = {
     'default': {
