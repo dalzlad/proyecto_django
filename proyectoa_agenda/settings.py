@@ -59,12 +59,12 @@ WSGI_APPLICATION = 'proyectoa_agenda.wsgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
+        'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'blog',
         'USER': 'root',
-        'PASSWORD': '',
-        'HOST': 'localhost',
-        'PORT': '3306',
+        'PASSWORD': 'Bc774Rr9KIhz4dhmk5dP5z8oDVnz7cDD',
+        'HOST': 'dpg-cjrbq2ojbais738hsvug-a',
+        'PORT': '5432',
         'OPTIONS': {
             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'"
          }   
