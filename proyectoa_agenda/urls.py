@@ -2,6 +2,8 @@ from django.contrib import admin
 from django.urls import path
 from app_contactos.views import ContactoListar, ContactoDetalle, ContactoNuevo, ContactoActualizar, ContactoEliminar, CerrarSesion
 from django.conf.urls.static import static
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -24,3 +26,5 @@ urlpatterns = [
     # Para html Cerrar Sesión (sólo ejemplo para mostrar una página HTML estática)
     path('app_contactos/cerrarsesion', CerrarSesion, name='cerrarsesion'),	
 ]
+
+urlpatterns += staticfiles_urlpatterns()
