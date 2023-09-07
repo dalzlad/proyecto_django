@@ -13,7 +13,7 @@ SECRET_KEY = 'django-insecure-tk%c(=%d)ygd25@%11tj_2ujw+7ry!(t$=jae97v6jht%e9@-f
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['proyectoa-agenda1.onrender.com']
+ALLOWED_HOSTS = ['proyectoa-agenda.onrender.com']
 
 # Application definition
 INSTALLED_APPS = [
